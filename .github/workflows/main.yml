@@ -16,8 +16,8 @@ jobs:
         with:
           lfs: true
 
-      - name: chceck wsl version
-        run: wsl --version
+      # - name: chceck wsl version
+      #   run: wsl --version
 
       - name: install wsl distro
         run: wsl --install Ubuntu

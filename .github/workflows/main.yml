@@ -19,6 +19,11 @@ jobs:
       - name: chceck wsl version
         run: wsl --set-default-version 2
 
+      - name: chceck wsl version
+        run: wsl --list --online
+
+        
+
       - name: install wsl distro
         run: wsl --install Ubuntu
 

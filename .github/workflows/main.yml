@@ -25,7 +25,7 @@ jobs:
         
 
       - name: install wsl distro
-        run: wsl --install Ubuntu
+        run: wsl --install -d Ubuntu
 
       - name: prevent wsl shutdown
         run:  wsl -d Ubuntu  --exec dbus-launch true   
